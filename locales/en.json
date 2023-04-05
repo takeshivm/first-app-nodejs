@@ -1,0 +1,8 @@
+{
+  "hello": "hello",
+  "hello %s": "hello %s",
+  "%d product": {
+    "one": "%d product",
+    "other": "%d products"
+  }
+}

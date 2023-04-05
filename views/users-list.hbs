@@ -1,0 +1,14 @@
+{{#if users.length}}
+    {{#each users}}
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                {{username}}
+            </div>
+            <div class="panel-body">
+                <p>{{id}}, {{email}}, {{created_at}}</p>
+            </div>
+        </div>
+    {{/each}}
+{{else}}
+    <p>No hay usuarios</p>
+{{/if}}

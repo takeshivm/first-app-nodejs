@@ -1,0 +1,12 @@
+{
+	"hello": "hola",
+	"hello %s": "hola %s",
+	"%d product": {
+		"one": "%d producto",
+		"other": "%d productos"
+	},
+	"%d produt": {
+		"one": "%d produt",
+		"other": "%d products"
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "first-app-nodejs",
+  "description": "",
+  "main": "",
+  "authors": [
+    "takeshivm <vargasmurillotakeshi>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}

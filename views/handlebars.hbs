@@ -1,0 +1,17 @@
+<h1> {{appName}} </h1>
+
+{{#if users.length}}
+    {{#each users}}
+        <p>{{ id }}, {{ name }}</p>
+    {{/each}}
+{{else}}
+    <p>No hay usuarios</p>
+{{/if}}
+
+{{#unless users}}
+    <p>No hay usuarios</p>
+{{/unless}}
+<!--Con esto handlebar ya sabe que dentro del dir, partial, hay un archivo llamado partial.hbs -->
+{{> partial }}
+
+{{log "Lo que aparecera en la terminal"}}
